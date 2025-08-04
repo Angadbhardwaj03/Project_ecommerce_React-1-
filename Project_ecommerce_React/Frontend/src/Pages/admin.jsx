@@ -14,7 +14,7 @@ const Admin = () => {
      const handleSubmit = (e) => {
         e.preventDefault();
         let formData = new FormData(e.target);
-        axios.post("http://localhost:3000/users/login", formData)
+        axios.post("https://project-ecommerce-react-1-9ojl.onrender.com/users/login", formData)
             .then((res) => {
                 console.log(res);
                 navigate("/admin/")

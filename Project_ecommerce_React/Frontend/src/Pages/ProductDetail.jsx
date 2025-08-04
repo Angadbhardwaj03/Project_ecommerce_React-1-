@@ -17,7 +17,7 @@ const ProductDetail = () => {
 
     const getProductDetail = async()=>{
 
-       await axios.get("http://localhost:3000/products/"+productId)
+       await axios.get("https://project-ecommerce-react-1-9ojl.onrender.com/products/"+productId)
         .then((res)=>{
             console.log(res);
             setProductData(res.data.product);
