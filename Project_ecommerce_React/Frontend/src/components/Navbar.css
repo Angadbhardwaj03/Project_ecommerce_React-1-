@@ -1,0 +1,89 @@
+ /* nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(157, 183, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+nav .search input {
+
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.right{
+    position: relative;
+    /* right : 200px;  */
+    /* top : 10px */
+/* }  */ */
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 16px 40px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .left h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #00d1b2;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .left a {
+    text-decoration: none;
+  }
+  
+  .navbar .left h2:hover {
+    color: #00ffcc;
+  }
+  
+  .navbar .search input {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .search input:focus {
+    box-shadow: 0 0 5px #00d1b2;
+  }
+  
+  .navbar .right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 15px;
+    transition: color 0.3s ease, background 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .navbar .right a:hover {
+    background-color: #00d1b2;
+    color: #1e1e2f;
+  }
+  
+  .admin-login-btn {
+    border: 1px solid #00d1b2;
+  }
+  
+  .user-login-btn {
+    border: 1px solid #ffd700;
+  }
+  
+  
